@@ -250,6 +250,6 @@ hash on each tag push.
 ## Contact
 
 - Email: security@lazorkit.app
-- GitHub Security Advisories: https://github.com/lazor-kit/program-v2/security/advisories/new
+- GitHub Security Advisories: https://github.com/lazor-kit/lazorkit-public-good-program/security/advisories/new
 - On-chain pointer: `solana program show LazorjRFNavitUaBu5m3WaNPjU1maipvSW2rZfAFAKi`
   → `security_txt!` block links to this repo + audit PDF.

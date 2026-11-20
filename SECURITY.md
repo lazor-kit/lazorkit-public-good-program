@@ -5,7 +5,7 @@
 If you discover a security vulnerability in LazorKit, please report it responsibly:
 
 1. **Do NOT open a public GitHub issue**
-2. Use [GitHub's private vulnerability reporting](https://github.com/lazor-kit/program-v2/security/advisories/new)
+2. Use [GitHub's private vulnerability reporting](https://github.com/lazor-kit/lazorkit-public-good-program/security/advisories/new)
 3. Or email: security@lazorkit.app
 
 ### Response Timeline

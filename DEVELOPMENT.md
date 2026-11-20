@@ -1,5 +1,7 @@
 # LazorKit Development Workflow
 
+> **Deployment scope:** The Public Goods Program has no mainnet deployment. The shared-mainnet build and deployment plan below is historical.
+
 This document outlines the standard procedures for building, deploying, and testing the LazorKit program and its associated SDK.
 
 ## Prerequisites

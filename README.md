@@ -1,17 +1,10 @@
-# LazorKit Smart Wallet (V2)
+# LazorKit Public Goods Program
 
-A high-performance smart wallet program on Solana with passkey (WebAuthn/Secp256r1) authentication, role-based access control, session keys with action permissions, and replay-safe odometer counters. Built with [pinocchio](https://github.com/febo/pinocchio) for zero-copy serialization.
+An open-source Solana smart-wallet program for public-goods integrations. It uses Pinocchio, passkeys, Ed25519, and scoped session keys.
 
-**Program IDs** (chosen at compile time via `--features mainnet` / `--features devnet`):
+The Public Goods Program has **no mainnet deployment**. Its devnet program ID is `FLb7fyAtkfA4TSa2uYcAT8QKHd2pkoMHgmqfnXFXo7ao`. Use [LazorKit Protocol](https://github.com/lazor-kit/lazorkit-protocol) for the supported production deployment.
 
-| Cluster | Program ID |
-|---|---|
-| Mainnet | `LazorjRFNavitUaBu5m3WaNPjU1maipvSW2rZfAFAKi` |
-| Devnet  | `FLb7fyAtkfA4TSa2uYcAT8QKHd2pkoMHgmqfnXFXo7ao` |
-
-The mainnet slot is shared with [`lazorkit-protocol`](https://github.com/lazor-kit/lazorkit-protocol) (the commercial sibling build with protocol fees). dApp integrators use the same mainnet program ID for both — `@lazorkit/sdk-legacy` probes the on-chain `ProtocolConfig` PDA on first use and transparently appends fee accounts only when present. See [DEVELOPMENT.md → Mainnet Deploy Strategy](DEVELOPMENT.md#h-mainnet-deploy-strategy-foundation-build).
-
----
+Historical build configuration and runbooks may mention the shared mainnet address. That address belongs to the production Protocol deployment. Public Goods deployment and integration guidance on this branch is for local development and devnet.
 
 ## Key Features
 
