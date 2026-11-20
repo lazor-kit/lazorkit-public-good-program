@@ -1,5 +1,7 @@
 # Mainnet Deployment Runbook (Foundation Build)
 
+> **Deployment scope:** The Public Goods Program has no mainnet deployment. The shared-mainnet build and deployment plan below is historical.
+
 This runbook covers deploying `program-v2` (the no-fee foundation build) to the
 LazorKit mainnet program slot, and the binary swap back to `lazorkit-protocol`
 (the commercial build) at the end of the foundation contract.
